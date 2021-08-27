@@ -7,15 +7,33 @@
             "label": "Run docsify server",
             "type": "shell",
             "command": "docsify serve docs",
+            "isBackground": true,
             "windows": {
-                "command": "start docsify serve docs"
+                "command": "docsify serve docs"
             },
             "group": "none",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
             },
-            "problemMatcher": []
+            // See https://stackoverflow.com/a/54017304
+            "problemMatcher": [
+                {
+                  "pattern": [
+                    {
+                      "regexp": ".",
+                      "file": 1,
+                      "location": 2,
+                      "message": 3
+                    }
+                  ],
+                  "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".",
+                    "endsPattern": "Listening at http://localhost:3000",
+                  }
+                }
+            ]
         }
     ]
   }
