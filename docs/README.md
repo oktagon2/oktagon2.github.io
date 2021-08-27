@@ -1,20 +1,29 @@
-# Headline
+# Hallo
+
+## Tagebuch
+* 27.08.2021
+    * Heizen in der Übergangszeit
+    * GitHub > Mit VS Code
+    * VS Code > Task für Docsify Server
 
 ## GitHub
 
 ### Mit VS Code
 * Am besten zuerst auf https://github.com/ ein Repository erstellen und dieses dann mit VS Code klonen. Dazu in VS Code "Close Folder" ausführen und dann im Register "Getting Started" auf "Clone Git Repository..." klicken. Das ausgewählte Repository wird dann in einem Unterordner des ausgewählten Ordners erstellt. Zusätzlich wird auch Git initialisiert und die Verbindung zu GitHub korrekt erstellt.
 * Wenn bereits ein VS Code Projekt (resp. Ordner) besteht, dann kann man auch nachträglich auf https://github.com/ ein Repository erstellen und dann mit folgenden Befehlen (test1 ersetzen!) eine Verbindung zum GitHub Repository erstellen und den Quellcode pushen.
+
+```bash
 git remote add origin https://github.com/oktagon2/test1.git
 git branch -M main
 git push -u origin main 
+```
 
 ## Heizen in der Übergangszeit
 
 ### Facts
 * die Temperatur schwankt z.B. zwischen 11 und 20 Grad
 * die Durchschnittstemperatur ist also 15.5 Grad
-* die wärmsten 12 Stunden (von 10:00 Uhr bis 22:00 Uhr) sind über durchschnittlich warm.
+* die wärmsten 12 Stunden (von 10:00 Uhr bis 22:00 Uhr) sind überdurchschnittlich warm.
 * die wärmsten 12 Stunden sind durchschnittlich 18 Grad warm
 * für eine Temperatur von 22 Grad brauche ich z.B. 7 Grad mehr als der Durchschnitt.
 
@@ -29,5 +38,8 @@ git push -u origin main
 * Die Heizung muss man grob auf 44 - Durchschnittstemperatur einstellen
 * Die Absenkung um 15 Grad von 22:00 Uhr bis 10:00 Uhr.
 
+## VS Code
 
+### Task für Docsify Server
+siehe dieses Projekt... ;-)
 
