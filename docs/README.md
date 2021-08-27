@@ -1,5 +1,14 @@
 # Headline
 
+## GitHub
+
+### Mit VS Code
+* Am besten zuerst auf https://github.com/ ein Repository erstellen und dieses dann mit VS Code klonen. Dazu in VS Code "Close Folder" ausführen und dann im Register "Getting Started" auf "Clone Git Repository..." klicken. Das ausgewählte Repository wird dann in einem Unterordner des ausgewählten Ordners erstellt. Zusätzlich wird auch Git initialisiert und die Verbindung zu GitHub korrekt erstellt.
+* Wenn bereits ein VS Code Projekt (resp. Ordner) besteht, dann kann man auch nachträglich auf https://github.com/ ein Repository erstellen und dann mit folgenden Befehlen (test1 ersetzen!) eine Verbindung zum GitHub Repository erstellen und den Quellcode pushen.
+git remote add origin https://github.com/oktagon2/test1.git
+git branch -M main
+git push -u origin main 
+
 ## Heizen in der Übergangszeit
 
 ### Facts
